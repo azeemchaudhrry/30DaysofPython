@@ -71,3 +71,31 @@ print(f'Position of last l in {coding_for_all} : ', coding_for_all.rfind('l'))
 print('Position of first occurrence of \'because\' : ', 'You cannot end a sentence with because because because is a conjunction'.find('because'))
 
 print(' Last Occurrence of word \'because\' : ', 'You cannot end a sentence with because because because is a conjunction'.rfind('becuase'))
+
+spaced_coding_for_all = '   Coding For All      '
+print(spaced_coding_for_all.strip(' '))
+thirtyDaysOfPython = '30DaysOfPython'
+thirty_days_of_python = 'thirty_days_of_python'
+print('Is 30DaysOfPython a valid identifier: ', thirtyDaysOfPython.isidentifier())
+print('Is thirty_days_of_python a valid identifier: ', thirty_days_of_python.isidentifier())
+
+python_libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+python_libraries_str = '# '.join(python_libraries)
+print(python_libraries_str)
+
+print('I am enjoying this challenge.\nI just wonder what is next.')
+
+print('Name\tAge\tCountry')
+print('Azeem\t31\tPakistan')
+
+radius = 10
+area = 3.14 * radius ** 2
+print(f'The area of a cricle with radius {radius} is {int(area)} meters square.')
+
+print(F'{8} + {6} = {8+6}')
+print(F'{8} - {6} = {8-2}')
+print(F'{8} * {6} = {8*6}')
+print(F'{8} / {6} = {8/6}')
+print(F'{8} % {6} = {8%6}')
+print(F'{8} // {6} = {8//6}')
+print(F'{8} ** {6} = {8**6}')
